@@ -1,5 +1,4 @@
-{
-   "Ip": {
-       "Ip1": "141.98.14.193"
-          }
+myObj = { "ip":"141.98.14.193", "discordnavn": "Marcus.0002" };
+for (x in myObj) {
+  document.getElementById("demo").innerHTML += x;
 }
